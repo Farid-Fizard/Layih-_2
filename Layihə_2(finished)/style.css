@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto";
+}
+.container {
+  position: relative;
+  width: 29.167vw;
+  max-height: 34.462vw;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 20.139vw auto;
+}
+.header {
+  border-radius: 10px;
+  width: 100%;
+  background: #ffdc40;
+  height: 2.431vw;
+}
+h1 {
+  padding-top: 1.128vw;
+  font-weight: 900;
+  font-size: 2.257vw;
+  line-height: 2.604vw;
+  text-align: center;
+  text-transform: capitalize;
+}
+.sorter {
+  position: absolute;
+  left: 24.392vw;
+  top: 7.899vw;
+  width: 2.17vw;
+}
+.sorter:onclick{
+  background: url("");
+}
+.box {
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-top: 3.646vw;
+  margin-left: 2.431vw;
+  width: 24.826vw;
+  overflow: auto;
+  max-height: 17.361vw;
+}
+.boxes {
+  display: flex;
+  width: 100%;
+}
+input, #newTodo {
+  height: auto;
+  width: 70%;
+  margin: 1.042vw 0 1.042vw 2.344vw;
+  border: none;
+}
+.close {
+  margin: 0.868vw 0 0.868vw 5%;
+}
+button {
+  border: none;
+  width: 13.021vw;
+  height: 3.646vw;
+  margin: 1.563vw 8.073vw;
+  background: #833ae0;
+  border-radius: 71px;
+  font-weight: 400;
+  font-size: 1.215vw;
+  line-height: 1.389vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.click{
+  width: 3.6vw;
+  height: 3.6vw;
+}
+.close:hover  {
+  background: url("Images/remover.svg") no-repeat;
+}
+p{
+  padding-left: 1.302vw;
+}
